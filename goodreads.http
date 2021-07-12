@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"varshini",
+    "username":"vasrh",
+    "password": "varsh@456",
+    "gender": "Female",
+    "location":"Vijaywada"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"vasrh",
+    "password": "varsh@456"
+}
